@@ -29,15 +29,7 @@ Frontend: HTML/CSS/JS
 
 Hosting: PythonAnywhere (Free)
 
-📁 Project Structure
-text
-fake-news-detector/
-├── app.py              # Flask application
-├── ml_handler.py      # ML model
-├── requirements.txt   # Dependencies
-├── templates/
-│   └── index.html    # Web interface
-└── README.md         # This file
+
 🏃‍♂️ Quick Start
 bash
 git clone https://github.com/NoumaanSeecs/fake-news-detector.git
