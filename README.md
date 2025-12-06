@@ -5,27 +5,30 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.0-orange.svg)](https://scikit-learn.org/)
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://HannibalBarca.pythonanywhere.com)
 
-Machine learning web app to detect fake news using Logistic Regression with TF-IDF.
+A machine learning web application that detects fake news articles using Logistic Regression with TF-IDF feature extraction.
 
 ## 🚀 Live Demo
-**[Try it now: HannibalBarca.pythonanywhere.com](https://HannibalBarca.pythonanywhere.com)**
+**Try it now:** [https://HannibalBarca.pythonanywhere.com](https://HannibalBarca.pythonanywhere.com)
 
-## 📊 Features
-- Real-time news analysis
-- 98.93% accuracy
-- Confidence scores
-- Key word indicators
-- Mobile responsive
+## 📊 Model Performance
+- **Accuracy:** 98.93%
+- **Algorithm:** Logistic Regression with L2 regularization
+- **Features:** TF-IDF with 5,000 most important words
+- **Dataset:** ISOT Fake News Dataset (45,000 articles)
 
-## 🛠️ Tech Stack
-- **Backend:** Flask (Python)
-- **ML Model:** Logistic Regression + TF-IDF
-- **Frontend:** HTML/CSS/JS
-- **Hosting:** PythonAnywhere (Free)
+## 🎯 Features
+- Real-time news article analysis
+- Confidence percentage display
+- Key word indicators showing why decision was made
+- Sample articles for testing
+- Mobile-responsive design
+- Fast prediction (< 1 second)
 
-## 🏃‍♂️ Quick Start
-```bash
-git clone https://github.com/HannibalBarca/fake-news-detector.git
-cd fake-news-detector
-pip install -r requirements.txt
-python app.py
+## 🛠️ Technology Stack
+- **Backend:** Flask, Python
+- **Machine Learning:** scikit-learn, Logistic Regression, TF-IDF
+- **Frontend:** HTML, CSS, JavaScript
+- **Hosting:** PythonAnywhere (Free tier)
+- **Accuracy:** 98.93%
+
+## 📁 Project Structure
