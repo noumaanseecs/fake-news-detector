@@ -1,8 +1,4 @@
 🛡️ Fake News Detector
-https://img.shields.io/badge/Python-3.10-blue.svg
-https://img.shields.io/badge/Flask-2.3.3-green.svg
-https://img.shields.io/badge/scikit--learn-1.3.0-orange.svg
-https://img.shields.io/badge/Live-Demo-brightgreen.svg
 
 A machine learning web app that detects fake news using Logistic Regression with TF-IDF.
 
