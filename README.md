@@ -1,34 +1,55 @@
-# 🛡️ Fake News Detector
+🛡️ Fake News Detector
+https://img.shields.io/badge/Python-3.10-blue.svg
+https://img.shields.io/badge/Flask-2.3.3-green.svg
+https://img.shields.io/badge/scikit--learn-1.3.0-orange.svg
+https://img.shields.io/badge/Live-Demo-brightgreen.svg
 
-[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-2.3.3-green.svg)](https://flask.palletsprojects.com/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.0-orange.svg)](https://scikit-learn.org/)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://HannibalBarca.pythonanywhere.com)
+A machine learning web app that detects fake news using Logistic Regression with TF-IDF.
 
-A machine learning web application that detects fake news articles using Logistic Regression with TF-IDF feature extraction.
+🚀 Live Demo
+Try it now: https://HannibalBarca.pythonanywhere.com
 
-## 🚀 Live Demo
-**Try it now:** [https://HannibalBarca.pythonanywhere.com](https://HannibalBarca.pythonanywhere.com)
+📊 Features
+Real-time news analysis
 
-## 📊 Model Performance
-- **Accuracy:** 98.93%
-- **Algorithm:** Logistic Regression with L2 regularization
-- **Features:** TF-IDF with 5,000 most important words
-- **Dataset:** ISOT Fake News Dataset (45,000 articles)
+98.93% accuracy
 
-## 🎯 Features
-- Real-time news article analysis
-- Confidence percentage display
-- Key word indicators showing why decision was made
-- Sample articles for testing
-- Mobile-responsive design
-- Fast prediction (< 1 second)
+Confidence scores
 
-## 🛠️ Technology Stack
-- **Backend:** Flask, Python
-- **Machine Learning:** scikit-learn, Logistic Regression, TF-IDF
-- **Frontend:** HTML, CSS, JavaScript
-- **Hosting:** PythonAnywhere (Free tier)
-- **Accuracy:** 98.93%
+Key word indicators
 
-## 📁 Project Structure
+Mobile responsive
+
+🛠️ Tech Stack
+Backend: Flask (Python)
+
+ML Model: Logistic Regression + TF-IDF
+
+Frontend: HTML/CSS/JS
+
+Hosting: PythonAnywhere (Free)
+
+📁 Project Structure
+text
+fake-news-detector/
+├── app.py              # Flask application
+├── ml_handler.py      # ML model
+├── requirements.txt   # Dependencies
+├── templates/
+│   └── index.html    # Web interface
+└── README.md         # This file
+🏃‍♂️ Quick Start
+bash
+git clone https://github.com/NoumaanSeecs/fake-news-detector.git
+cd fake-news-detector
+pip install -r requirements.txt
+python app.py
+📈 Results
+Test	Prediction	Confidence
+Fake News	FAKE	88%
+Real News	REAL	82%
+Emotional	REAL	66%
+👤 Author
+NoumaanSeecs - GitHub
+
+⭐ Star this repo if you like it!
