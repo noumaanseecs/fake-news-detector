@@ -32,3 +32,10 @@ A machine learning web application that detects fake news articles using Logisti
 - **Accuracy:** 98.93%
 
 ## 📁 Project Structure
+fake-news-detector/
+├── app.py # Flask application
+├── ml_handler.py # ML model implementation
+├── requirements.txt # Python dependencies
+├── templates/
+│ └── index.html # Web interface
+└── README.md # This file
