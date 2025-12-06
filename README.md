@@ -43,5 +43,11 @@ Real News	REAL	82%
 Emotional	REAL	66%
 👤 Author
 NoumaanSeecs - GitHub
-
+## 📚 Dataset
+- **Source:** [ISOT Fake News Dataset](https://www.kaggle.com/emineyetm/fake-news-detection-datasets)
+- **Size:** 44,898 articles (50% real, 50% fake)
+- **Real sources:** Reuters, BBC, etc.
+- **Fake sources:** Various unreliable websites
+- **Time period:** 2016-2017
+- **Download:** [Kaggle Link](https://www.kaggle.com/emineyetm/fake-news-detection-datasets)
 ⭐ Star this repo if you like it!
